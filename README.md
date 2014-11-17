@@ -9,7 +9,7 @@ File Structure
   - controllers
   - services
   - views
-  foosball.html
+  - foosball.html
 
 
 
