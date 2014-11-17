@@ -11,6 +11,10 @@ File Structure
   - views
   - foosball.html
 
+Example
+-------------
+
+http://superlukie.com/tagged/foosball.html
 
 
 
