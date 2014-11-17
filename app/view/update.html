@@ -1,0 +1,6 @@
+<ul class="playerRanks">
+  <li ng-repeat="em in playerScores">
+    Player1 : {{em.player1}} <input type="text" ng-model="em.score1"  ng-change="updateScores(em,$event)"></input>
+    Player2 : {{em.player2}} <input type="text" ng-model="em.score2"  ng-change="updateScores(em,$event)"></input>
+  </li>
+</ul>

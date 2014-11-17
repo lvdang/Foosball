@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" data-ng-app="app_foosball">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Tagged Foosball</title>
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+		<link href="http://superlukie.com/css/foosball.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+    <header>
+     	 <nav class="navbar navbar-default">
+     	 	<ul class="nav navbar-nav">
+     	 		<li><a href="#/rank"  >Player Rank</a></li>
+     	 		<li><a href="#/new_game">New Game</a></li>
+     	 		<li><a href="#/update">Update Scores</a></li>
+     	 	</ul>
+     	 </nav>
+     </header>
+
+		<div data-ng-view></div>
+           
+<script src="http://superlukie.com/js/angular.min.js"></script>
+<script src="http://superlukie.com/js/angular-route.min.js"></script> 
+<script src="/tagged/controllers/app_foosball.js"></script> 
+<script src="/tagged/services/foosballService.js"></script> 
+<script src="/tagged/controllers/rankController.js"></script>
+<script src="/tagged/controllers/newGameController.js"></script>
+<script src="/tagged/controllers/updateController.js"></script> 
+ </body>
+</html>
+
+
+ 
