@@ -9,7 +9,7 @@
          var playersP = FoosballService.getPlayerRanking();
    
          if (FoosballService.playerRankingSaved == 0) {
-
+           var playersP = FoosballService.getPlayerRanking();
            playersP.then(function(data) {
            	 // reset these to clear out save cache
            	 FoosballService.playerRankingSaved = 1;
